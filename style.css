@@ -41,7 +41,7 @@ button{
     border-bottom: 4px solid black;
 }
 button:hover{
-    background-color: #6e4848;
+    background-color:#00220B;
     color: #FFDDF4;
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
     transition: background-color 0.3s ease;
@@ -59,15 +59,15 @@ button:hover{
     width: 12em;
 }
 .lang{
-    background-color: #d9f5f9;
-    height: 32em;
+    
+    height: 14em;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .tiles{
     width: 100%;
-
 }
 .header-left{
     display: flex;
@@ -76,17 +76,27 @@ button:hover{
 .lang img{
     margin: 1em;
     width: 90%;
+    height: 6em;
    
 }
 footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color:#d9f5f9;
 }
 .mail{
+    color: #00220B;
     margin:1em;
     position: absolute;
     bottom:0;
     right:0;
     font-weight: 400;
     font-size: 1.5em;
+}
+.button-cv{
+    display: flex;
+    justify-content: center;
+}
+.me{
+    height: 21.5em;
 }
