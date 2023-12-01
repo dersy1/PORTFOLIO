@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    cursor: url('images/custom-cursor.png') 20 20, default !important;
+   
+}
+body{
+    background-color: #00220B;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding:2em;
+    justify-content: space-between;
+}
+.name img{
+    width: 30em;
+    
+}
+p{
+    margin-left: 0.5em;
+    color: #FFDDF4;
+    font-size: 2em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+button{
+    width: 7em;
+    height:2em;
+    background-color:#FFDDF4;
+    color:#00220B;
+    padding: 0.2em;
+    margin:2em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 2em;
+    border-bottom: 4px solid black;
+}
+button:hover{
+    background-color: #6e4848;
+    color: #FFDDF4;
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
+    transition: background-color 0.3s ease;
+}
+.link{
+    width: 5em;
+}
+
+.link:hover{
+    transition: width 0.2s ease;
+    width: 5.2em;
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
+}
+.links{
+    width: 12em;
+}
+.lang{
+    background-color: #d9f5f9;
+    height: 32em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiles{
+    width: 100%;
+
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+}
+.lang img{
+    margin: 1em;
+    width: 90%;
+   
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    margin:1em;
+    position: absolute;
+    bottom:0;
+    right:0;
+    font-weight: 400;
+    font-size: 1.5em;
+}
