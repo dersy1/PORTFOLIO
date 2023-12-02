@@ -98,5 +98,34 @@ footer{
     justify-content: center;
 }
 .me{
-    height: 21.5em;
+    height: 17.5em;
+    width: 40em;
+    border-top:  2px dashed #FFDDF4;
+    border-bottom:  2px dashed #FFDDF4;
+    padding: 2em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.me p{
+    color:rgb(250, 241, 241);
+    font-size: 1.1em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-align: justify;
+    font-weight: 400;
+}
+.me strong{
+    color:rgb(250, 241, 241);
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.me-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
