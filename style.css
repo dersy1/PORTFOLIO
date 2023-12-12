@@ -26,13 +26,13 @@ p{
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
 }
-button{
+#download{
     width: 7em;
     height:2em;
     background-color:#FFDDF4;
     color:#00220B;
     padding: 0.2em;
-    margin:2em;
+    margin:1em;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
@@ -40,7 +40,7 @@ button{
     font-size: 2em;
     border-bottom: 4px solid black;
 }
-button:hover{
+#download:hover{
     background-color:#00220B;
     color: #FFDDF4;
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
@@ -86,10 +86,7 @@ footer{
 }
 .mail{
     color: #00220B;
-    margin:1em;
-    position: absolute;
-    bottom:0;
-    right:0;
+    margin-top:0.5em;
     font-weight: 400;
     font-size: 1.5em;
 }
@@ -98,7 +95,7 @@ footer{
     justify-content: center;
 }
 .me{
-    height: 17.5em;
+    height: 15.5em;
     width: 40em;
     border-top:  2px dashed #FFDDF4;
     border-bottom:  2px dashed #FFDDF4;
@@ -128,4 +125,31 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#eng{
+    
+    width: 3em;
+    height: 2em;
+    background-color:#FFDDF4;
+    color:#00220B;
+    border-bottom: 3px solid black;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+#eng:hover{
+    background-color:#00220B;
+    color: #FFDDF4;
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
+    transition: background-color 0.3s ease;
+}
+.section{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2em;
+    margin-bottom: 1em;
 }
