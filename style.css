@@ -5,7 +5,6 @@
 }
 body{
     background-color: #00220B;
-   
 }
 header{
     display: flex;
@@ -155,13 +154,27 @@ footer{
     margin-bottom: 1em;
 }
 @media screen and (max-width: 640px) {
-    .name img{
-        width: 90%;
-    }
-    .me{
-        height: 28em;
-    }
-    p{
-        font-size: 1.5em;
-    }
+      .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+      .name img {
+        width: 70%; /* Haz que la imagen ocupe el ancho completo del contenedor */
+      }
+    
+      .me {
+        width: 100%;
+      }
+      .links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      .link{
+        width: 20%;
+      }
+      #subtitle{
+        font-size: 1em;
+      }
 }
