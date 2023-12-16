@@ -158,6 +158,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
         }
       .name img {
         width: 70%; /* Haz que la imagen ocupe el ancho completo del contenedor */
@@ -170,12 +171,19 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        margin-right: 1em;
       }
       .link{
         width: 20%;
       }
-      #subtitle{
-        font-size: 1em;
+      .links a{
+        width: 5em;
       }
-      header{}
+      #subtitle{
+        font-size: 0.7em;
+        margin:0;
+      }
+      header{
+        padding:0.5em;
+      }
 }
