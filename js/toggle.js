@@ -6,7 +6,7 @@ const download=document.getElementById('download');
 let es = true;
 subtitle.textContent= 'Desarrollador web';
 about.textContent='Sobre mi';
-description.textContent='Actualmente estudio Desarrollo Web en la UnLaM. Soy una persona responsable'+
+description.textContent='Actualmente estudio Desarrollo Web en la UnLaM. Soy una persona responsable, '+
 'predispuesta a adquirir nuevos conocimientos y me gusta trabajar en equipo.'+ 
 ' Poseo una formación avanzada de inglés y animación.';
 download.textContent='VER CV';
