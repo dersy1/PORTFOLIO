@@ -26,11 +26,10 @@ p{
 }
 #download{
     width: 7em;
-    height:2em;
     background-color:#FFDDF4;
     color:#00220B;
     padding: 0.2em;
-    margin:1em;
+    margin-top:1em;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
@@ -93,9 +92,18 @@ footer{
     display: flex;
     justify-content: center;
 }
+.me-all{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 44em;
+    background-color: #00290c;
+    border-radius: 0.5em;
+    margin: 0 auto; 
+
+}
 .me{
     height: 15.5em;
-    width: 40em;
+    width: 42em;
     border-top:  2px dashed #FFDDF4;
     border-bottom:  2px dashed #FFDDF4;
     padding: 2em; 
@@ -103,6 +111,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .me p{
     color:rgb(250, 241, 241);
@@ -118,6 +127,7 @@ footer{
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+
 }
 
 .me-all{
@@ -138,6 +148,7 @@ footer{
     font-weight: 700;
     font-size: 1.2em;
 }
+
 #eng:hover{
     background-color:#00220B;
     color: #FFDDF4;
@@ -160,7 +171,7 @@ footer{
         
         }
       .name img {
-        width: 70%; /* Haz que la imagen ocupe el ancho completo del contenedor */
+        width: 70%; 
       }
     
       .me {

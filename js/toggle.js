@@ -5,10 +5,8 @@ const description=document.getElementById('description');
 const download=document.getElementById('download');
 let es = true;
 subtitle.textContent= 'Desarrollador web';
-about.textContent='Sobre mi';
-description.textContent='Actualmente estudio Desarrollo Web en la UnLaM. Soy una persona responsable, '+
-'predispuesta a adquirir nuevos conocimientos y me gusta trabajar en equipo.'+ 
-' Poseo una formación avanzada de inglés y animación.';
+about.textContent='Sobre mí';
+description.textContent='Soy un desarrollador web full stack, responsable, predispuesta a adquirir nuevos conocimientos y que disfruta trabajar en equipo. Poseo una formación avanzada de inglés y animación.';
 download.textContent='VER CV';
 button.addEventListener('click', function() {
     es = !es;
@@ -16,8 +14,7 @@ button.addEventListener('click', function() {
     button.textContent = 'ES';
     subtitle.textContent= 'Web developer';
     about.textContent= 'About me';
-    description.textContent='Currently, I am studying Web Development at UnLaM. I am a responsible person, eager to acquire'+ 
-    ' new knowledge, and I enjoy teamwork. I have advanced skills in English and animation.';
+    description.textContent='I am a full-stack web developer, responsible, eager to acquire new knowledge, who enjoys working in teams. I have advanced training in English and animation.';
     download.textContent='MY RESUME';
     }else{  
     button.textContent = 'ENG';
