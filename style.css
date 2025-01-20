@@ -92,17 +92,10 @@ footer{
     display: flex;
     justify-content: center;
 }
-.me-all{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: 44em;
-    border-radius: 0.5em;
-    margin: 0 auto; 
 
-}
 .me{
     height: 15.5em;
-    width: 42em;
+    width: 43em;
     border-top:  2px dashed #FFDDF4;
     border-bottom:  2px dashed #FFDDF4;
     padding: 2em; 
