@@ -147,6 +147,11 @@ footer{
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
     transition: background-color 0.3s ease;
 }
+#folder:hover{
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
+    transform: scale(1.05);
+    transition: transform 0.3s ease; 
+}
 .section{
     display: flex;
     justify-content: flex-end;
@@ -155,6 +160,23 @@ footer{
     margin-right: 2em;
     margin-bottom: 1em;
 }
+
+.projects{
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color:rgb(250, 241, 241);
+    font-size: 1.1em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    padding-top:1.5em;
+}
+#folder-text{
+    margin-left: 1em;
+}
+
 @media screen and (max-width: 640px) {
       .name{
         display: flex;
