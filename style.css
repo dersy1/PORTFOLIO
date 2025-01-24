@@ -141,6 +141,7 @@ footer{
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
     font-size: 1.2em;
+    text-align: center;
 }
 
 #eng:hover{
@@ -225,6 +226,6 @@ footer{
         margin-bottom: 2em;
       }
       .tiles{
-        width: 240%;
+        width: 260%;
       }
 }
