@@ -26,8 +26,8 @@ p{
 }
 #download{
     width: 7em;
-    background-color:#FFDDF4;
-    color:#00220B;
+    background-color:#FFDDF4!important;
+    color:#00220B!important;
     padding: 0.2em;
     margin-top:1em;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -132,8 +132,8 @@ footer{
     
     width: 3em;
     height: 2em;
-    background-color:#FFDDF4 !important;
-    color:#00220B;
+    background-color:#FFDDF4!important;
+    color:#00220B!important;
     border-bottom: 3px solid black !important;
     border: 2px solid black;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -227,15 +227,7 @@ footer{
       .tiles{
         width: 260%;
       }
-}
-@media (hover: none) {
-    #eng:hover {
-      background-color: initial; 
-      color: initial;
-      cursor: auto;
-    }
-  }
-  #eng:active {
-    background-color: #00220B;
-    color: #FFDDF4;
+      #eng{
+        width: 4em;
+      }
 }
