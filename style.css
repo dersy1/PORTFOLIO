@@ -132,7 +132,7 @@ footer{
     
     width: 3em;
     height: 2em;
-    background-color:#FFDDF4;
+    background-color:#FFDDF4 !important;
     color:#00220B;
     border-bottom: 3px solid black !important;
     border: 2px solid black;
@@ -141,7 +141,6 @@ footer{
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
     font-size: 1.2em;
-    text-align: center;
 }
 
 #eng:hover{
@@ -228,4 +227,15 @@ footer{
       .tiles{
         width: 260%;
       }
+}
+@media (hover: none) {
+    #eng:hover {
+      background-color: initial; 
+      color: initial;
+      cursor: auto;
+    }
+  }
+  #eng:active {
+    background-color: #00220B;
+    color: #FFDDF4;
 }
