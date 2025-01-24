@@ -35,7 +35,8 @@ p{
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
     font-size: 2em;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid black !important;
+    border: 2px solid black;
 }
 #download:hover{
     background-color:#00220B;
@@ -133,7 +134,8 @@ footer{
     height: 2em;
     background-color:#FFDDF4;
     color:#00220B;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid black !important;
+    border: 2px solid black;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
