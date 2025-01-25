@@ -35,4 +35,11 @@ button.addEventListener('click', function() {
 });
 
 
+folder.addEventListener('click', function (event) {
+    event.preventDefault();
+    const lang = es ? 'es' : 'eng';
+    const newHref = `routes/projects.html?lang=${lang}`;
+    window.location.href = newHref; 
+});
+
 

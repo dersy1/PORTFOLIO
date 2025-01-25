@@ -11,6 +11,9 @@ header{
     padding:2em;
     justify-content: space-between;
 }
+header img:hover{
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
+}
 .name img{
     width: 30em;
     
@@ -177,6 +180,15 @@ footer{
 }
 #folder-text{
     margin-left: 1em;
+}
+.project {
+    transform: scale(1); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
 }
 
 @media screen and (max-width: 640px) {

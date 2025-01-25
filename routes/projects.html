@@ -6,21 +6,48 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Roboto:wght@700&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../images/icon.png" type="image/png">
     <title>Portfolio</title>
 </head>
 <body>
-    <div style="display: flex; align-items: center;">
+    <header> 
+        <div class="name">
+            <a href="/">
+            <img src="../images/name.svg" alt=""> 
+            </a>
+            <p id="subtitle"></p>
+        </div>
+       <div class="header-left">           
+            <div class="links">
+                <a href="https://www.linkedin.com/in/pablo-pavan-ab80352a3/"><img src="../images/linkedin.svg" alt="" class="link"></a>
+                <a href="https://github.com/dersy1"><img src="../images/github.svg" alt="" class="link"></a>
+            </div>
+        </div>
+
+    </header>
+    <div style="display: flex; flex-direction: column; align-items: center; margin-top: 2em;">
+    <div style="display: flex; align-items: center; margin: 2em;">
         <i class="material-icons" style="font-size:48px; color:#FFDDF4;">folder</i>
-        <p>Hello World!</p>
+        <p id="project-title"></p>
     </div>
-    <div style="display: flex; align-items: center;">
-        <div>
-            <a href="https://www.apyme.org.ar" target="_blank" >a</a>
+    <div style="display: flex; flex-direction: column;">
+        <div  style="display: flex; align-items: center;">
+        <div style="margin: 1em;">
+            <a href="https://www.apyme.org.ar" target="_blank" style="text-decoration: none;"><img src="../images/apyme.png" alt="" style="border-radius: 20px; width: 20em; height: 11em;" class="project"></a>
         </div>
-        <div>
-            <a href="https://hubby.com.ar" target="_blank" >a</a>
+        <div style="margin: 1em;">
+            <a href="https://hubby.com.ar" target="_blank" style="text-decoration: none;"><img src="../images/hubby.png" alt="" style="border-radius: 20px; width: 20em; height: 11em;" class="project"></a>
+        </div>
+        <div style="border-radius: 20px; width: 20em; height: 11em; background-color: black; opacity: 20%; margin: 1em;"></div>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <div style="border-radius: 20px; width: 20em; height: 11em; background-color: black; opacity: 20%; margin: 1em;"></div>
+            <div style="border-radius: 20px; width: 20em; height: 11em; background-color: black; opacity: 20%; margin: 1em;"></div>
+            <div style="border-radius: 20px; width: 20em; height: 11em; background-color: black; opacity: 20%; margin: 1em;"></div>
         </div>
     </div>
+</div>  
+<script src="../js/toggle-projects.js" defer></script>
 </body>
 </html>
