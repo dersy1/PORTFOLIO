@@ -39,8 +39,8 @@ p{
     border: 2px solid black;
 }
 #download:hover{
-    background-color:#00220B;
-    color: #FFDDF4;
+    background-color:#00220B!important;
+    color: #FFDDF4!important;
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
     transition: background-color 0.3s ease;
 }
@@ -144,8 +144,8 @@ footer{
 }
 
 #eng:hover{
-    background-color:#00220B;
-    color: #FFDDF4;
+    background-color:#00220B!important;
+    color: #FFDDF4!important;
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
     transition: background-color 0.3s ease;
 }
