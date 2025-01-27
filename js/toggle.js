@@ -6,14 +6,21 @@ const download = document.getElementById('download');
 const folderText = document.getElementById('folder-text');
 const folder = document.getElementById('folder');
 let es = true;
+let lang = es; 
 
+
+button.textContent = 'ENG';
 subtitle.textContent = 'Desarrollador web';
 about.textContent = 'Sobre mí';
 description.textContent = 'Soy un desarrollador web full stack. Disfruto trabajando en equipo. Poseo formación avanzada en dibujo, animación e inglés.';
 download.textContent = 'VER CV';
 folderText.textContent = 'Proyectos';
+folder.querySelector('i').textContent = 'folder';
+
+
 
 button.addEventListener('click', function() {
+    console.log("aca")
     es = !es;
     if (es) {
         button.textContent = 'ES';
@@ -37,7 +44,7 @@ button.addEventListener('click', function() {
 
 folder.addEventListener('click', function (event) {
     event.preventDefault();
-    const lang = es ? 'es' : 'eng';
+    lang = es ? 'es' : 'eng';
     const newHref = `routes/projects.html?lang=${lang}`;
     window.location.href = newHref; 
 });
