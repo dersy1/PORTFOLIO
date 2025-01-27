@@ -191,6 +191,10 @@ footer{
     cursor: url('images/custom-cursor2.png') 20 20, pointer !important;
 }
 
+.projects-and-title{
+    margin-top: 2em;
+  }
+
 @media screen and (max-width: 640px) {
     * {
 
@@ -242,6 +246,17 @@ footer{
       #eng{
         width: 4em;
       }
+
+      .all-projects{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .projects-and-title{
+        margin-top: 0.1em;
+      }
+
+
       @media (hover: none) {
         #download:hover {
           background-color: initial;
