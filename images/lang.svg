@@ -2,25 +2,25 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="15216.535px" height="1290.926px" viewBox="0 0 15216.535 1290.926" enable-background="new 0 0 15216.535 1290.926"
-	 xml:space="preserve">
-<image overflow="visible" enable-background="new    " width="9970" height="726" xlink:href="11AB9DFD.png"  transform="matrix(1.4899 0 0 1.4972 181.0918 132.405)">
+	 width="6732.946px" height="467.506px" viewBox="1018.022 731.545 6732.946 467.506"
+	 enable-background="new 1018.022 731.545 6732.946 467.506" xml:space="preserve">
+<image overflow="visible" enable-background="new    " width="9970" height="726" xlink:href="11AB9DFD.png"  transform="matrix(0.6779 0 0 0.6813 1018.021 712.8528)">
 </image>
-<image overflow="visible" enable-background="new    " width="9465" height="902" xlink:href="11AB9DFF.png"  transform="matrix(0.7894 0 0 0.7894 2044.4692 361.3328)">
+<image overflow="visible" enable-background="new    " width="9465" height="902" xlink:href="11AB9DFF.png"  transform="matrix(0.3765 0 0 0.3765 1069.8599 810.1165)">
 </image>
-<image overflow="visible" enable-background="new    " width="6835" height="789" xlink:href="11AB9DFA.png"  transform="matrix(0.1697 0 0 0.1707 19301.4414 541.2234)">
+<image overflow="visible" enable-background="new    " width="718" height="479" xlink:href="mongodb.png"  transform="matrix(0.7828 0 0 0.7828 4615.4829 787.551)">
 </image>
-<image overflow="visible" enable-background="new    " width="718" height="479" xlink:href="mongodb.png"  transform="matrix(1.6412 0 0 1.6412 9478.1758 314.0251)">
+<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="nextjs.png"  transform="matrix(0.3765 0 0 0.3765 5055.249 792.6301)">
 </image>
-<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="nextjs.png"  transform="matrix(0.7893 0 0 0.7893 10400.1816 324.6707)">
+<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="typescript.png"  transform="matrix(0.4802 0 0 0.4802 5409.146 721.2424)">
 </image>
-<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="typescript.png"  transform="matrix(1.0068 0 0 1.0068 11142.1602 175.0037)">
+<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="nodejs.png"  transform="matrix(0.3765 0 0 0.3765 5919.7588 779.2629)">
 </image>
-<image overflow="visible" enable-background="new    " width="1400" height="995" xlink:href="nodejs.png"  transform="matrix(0.7893 0 0 0.7893 12212.7012 296.6467)">
+<image overflow="visible" enable-background="new    " width="400" height="400" xlink:href="net.png"  transform="matrix(0.8763 0 0 0.8763 6446.8252 792.6301)">
 </image>
-<image overflow="visible" width="400" height="400" xlink:href="net.png"  transform="matrix(1.8372 0 0 1.8372 13317.7441 324.6711)">
+<rect x="6787.816" y="991.291" fill="#00220B" width="71.722" height="63.25"/>
+<image overflow="visible" enable-background="new    " width="400" height="400" xlink:href="aspnet.png"  transform="matrix(0.8747 0 0 0.8747 6889.2505 797.1487)">
 </image>
-<rect x="14032.66" y="741.182" fill="#00220B" width="150.371" height="132.611"/>
-<image overflow="visible" width="400" height="400" xlink:href="aspnet.png"  transform="matrix(1.8339 0 0 1.8339 14245.3281 334.1438)">
+<image overflow="visible" width="6835" height="789" xlink:href="11AB9DFA.png"  transform="matrix(0.3982 0 0 0.3982 4951.187 808.4875)">
 </image>
 </svg>

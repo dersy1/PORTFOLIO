@@ -73,7 +73,7 @@ p{
 }
 .lang{
     
-    height: 14em;
+    height: 16em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -88,7 +88,6 @@ p{
 }
 .lang img{
     margin: 1em;
-    width: 90%;
     height: 6em;
    
 }
@@ -207,6 +206,17 @@ footer{
     margin-top: 2em;
   }
 
+  @media screen and (max-width: 1350px) {
+    .lang img{
+      height: 5em;
+  }
+  } 
+  @media screen and (max-width: 1150px) {
+    .lang img{
+      display: none;
+  }
+  } 
+
 @media screen and (max-width: 640px) {
     * {
 
@@ -278,4 +288,5 @@ footer{
           background-color: initial;
         }
       }
+
 }
