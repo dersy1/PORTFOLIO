@@ -1,9 +1,13 @@
 const cardText =document.getElementById("cardText");
-const cards = ["HOLA", "CHAU"];
+const cards = new Map();
+cards.set(1, "HOLA");
+cards.set(2, "CHAU");
 
 function showRandomCard(cards){
-    index= Math.floor(Math.random() * cards.length);
-    cardText.innerHTML=cards[index];
+    
+    const keys = Array.from(cards.keys()); 
+    const randomKey = keys[Math.floor(Math.random() * keys.length)]; 
+    cardText.innerHTML = cards.get(randomKey);  
 
 }
 
