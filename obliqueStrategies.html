@@ -5,11 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oblique strategies</title>
 </head>
-<body style="background-color: black; display: flex; align-items: center; justify-content: center; height: 95vh;">  
-
-    <div style="background-color: white; width: 15em; height: 9em; display: flex; align-items: center; justify-content: center; padding: 1em;">
-        <p id="cardText" style="font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: center;"></p>
+<body style="background-color: black; display: flex; align-items: center; justify-content: center; height: 95vh; font-family: Arial, Helvetica, sans-serif;">  
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h1 style="color: white; text-align: center;">OBLIQUE STRATEGIES</h1>
+    <button style="background-color: white; width: 25em; height: 18em; display: flex; align-items: center; 
+    justify-content: center; padding: 1em; cursor:pointer; font-size: larger; border: none;" onclick={showRandomCard(cards)}>
+        <p id="cardText" style="font-weight: bold;  text-align: center;" id="cardText">Touch to get a card</p>
+    </button>
+    <p style="color: white; width: 32em; text-align: center;">
+        Oblique Strategies is a card-based method for promoting creativity
+        jointly created by Brian Eno and Peter Schmidt, first published in 1975. </p>
     </div>
     <script src="obliqueStrategies.js"></script>
+    <style>
+        #cardText {
+            opacity: 0;
+            animation: fadeIn 10s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </body>
 </html>
