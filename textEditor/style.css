@@ -87,6 +87,7 @@ textarea {
     padding: 5px;
     top: 70px; 
     left: 870px;
+    border-radius: 4px;
 }
 
 .color-option {
@@ -95,6 +96,7 @@ textarea {
     border: none;
     cursor: pointer;
     margin: 2px;
+    border-radius: 4px;
     border: 2px solid #000000;
 }
 
