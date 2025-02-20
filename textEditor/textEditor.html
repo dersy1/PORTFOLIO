@@ -20,9 +20,17 @@
                 <button class="color-option" data-color="blue" style="background-color: blue;"></button>
                 <button class="color-option" data-color="green" style="background-color: green;"></button>
                 <button class="color-option" data-color="black" style="background-color: white;"></button>
+                <input type="color" id="colorPicker">
+            
             </div>            
             <button><img src="/images/highlighter.png" alt="" id="highlighter"></button>
-            <button><span class="material-symbols-outlined">view_headline</span></button>
+            <button class="paragraph"><span class="material-symbols-outlined">format_align_justify</span></button>
+            <div class="paragraph-menu">
+                <button class="paragraph-option"><span class="material-symbols-outlined">format_align_left</span></button>
+                <button class="paragraph-option"><span class="material-symbols-outlined">format_align_center</span></button>
+                <button class="paragraph-option"><span class="material-symbols-outlined">format_align_right</span></button>
+                <button class="paragraph-option"><span class="material-symbols-outlined">format_align_justify</span></button>
+            </div>
             <div class="font-size-controls">
                 <button class="size-type" id="lessTypeSize">-</button>
                 <button class="size-type">11</button>
@@ -33,13 +41,13 @@
         </section>
         <section class="editor-container">
             <div class="editor">
-                <form action="">
-                    <textarea id="textArea"></textarea>
-                </form>
+                <div id="textArea" contenteditable="true"></div>
             </div>
         </section>
     </div>
     <script src="/textEditor/js/textEditor.js"></script>
     <script src="/textEditor/js/colorType.js"></script>
+    <script src="/textEditor/js/paragraph.js"></script>
+    <script src="/textEditor/js/highlighter.js"></script>
 </body>
 </html>

@@ -1,43 +1,30 @@
 const boldButton = document.getElementById('bold');
 const italicButton = document.getElementById('italic');
 const underlineButton = document.getElementById('underline');
-const highglightButton = document.getElementById('highlighter');
 const lessTypeSize = document.getElementById('lessTypeSize');
 const moreTypeSize = document.getElementById('moreTypeSize');
 const textArea = document.getElementById('textArea');
 
-boldButton.addEventListener('click', function() {
-    if (textArea.style.fontWeight === 'bold') {
-        textArea.style.fontWeight = 'normal';
-    } else {
-        textArea.style.fontWeight = 'bold';
-    }
+
+document.addEventListener("DOMContentLoaded", () => {
+    textArea.focus();
 });
 
-italicButton.addEventListener('click', function() {
-    if (textArea.style.fontStyle === 'italic') {
-        textArea.style.fontStyle = 'normal';
-    } else {
-        textArea.style.fontStyle = 'italic';
-    }
+function toggleButton(button, command) {
+    document.execCommand(command, false, null);
+    button.classList.add("active");
+}
+
+document.getElementById("bold").addEventListener("click", function() {
+    toggleButton(this, "bold");
 });
 
-underlineButton.addEventListener('click', function() {
-    if (textArea.style.textDecoration === 'underline') {
-        textArea.style.textDecoration = 'none';
-    } else {
-        textArea.style.textDecoration = 'underline';
-    }
+document.getElementById("italic").addEventListener("click", function() {
+    toggleButton(this, "italic");
 });
 
-lessTypeSize.addEventListener('click', function() {
-    const currentFontSize = window.getComputedStyle(textArea).fontSize;
-    const currentSize = parseInt(currentFontSize);
-    textArea.style.fontSize = (currentSize - 2) + 'px';
+document.getElementById("underline").addEventListener("click", function() {
+    toggleButton(this, "underline");
 });
 
-moreTypeSize.addEventListener('click', function() {
-    const currentFontSize = window.getComputedStyle(textArea).fontSize;
-    const currentSize = parseInt(currentFontSize);
-    textArea.style.fontSize = (currentSize + 2) + 'px';
-});
+
