@@ -24,6 +24,7 @@ button{
     border-bottom: 2px solid black;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .font-size-controls {
@@ -216,4 +217,13 @@ button{
 
 .font-option:hover {
     background-color: #ddd;
+}
+
+#zoomMenu{
+    display: flex;
+    align-items: center;
+}
+
+.zoom{
+    width: 1.5em;
 }
