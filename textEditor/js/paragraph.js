@@ -17,3 +17,14 @@ document.addEventListener("click", (event) => {
         paragraphMenu.style.display = "none";
     }
 });
+
+document.querySelectorAll(".paragraph-option").forEach(button => {
+    button.addEventListener("click", () => {
+        const alignment = button.getAttribute("data-paragraph");
+        applyAlignment(alignment);
+    });
+});
+
+function applyAlignment(alignment) {
+
+}

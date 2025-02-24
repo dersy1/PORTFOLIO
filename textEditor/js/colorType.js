@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const colorButton = document.querySelector(".color-type");
     const colorMenu = document.querySelector(".color-menu");
     const colorPicker = document.getElementById("colorPicker");
-    const textArea = document.getElementById("textArea");
 
+    
 
     colorButton.addEventListener("click", (event) => {
         event.stopPropagation();
@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     colorPicker.addEventListener("input", (event) => {
         const color = event.target.value;
-
-        
         colorButton.style.backgroundColor = color;
+        document.execCommand("foreColor", false, color);
+
     });
 
     document.addEventListener("click", (event) => {

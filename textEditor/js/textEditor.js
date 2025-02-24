@@ -1,30 +1,44 @@
-const boldButton = document.getElementById('bold');
-const italicButton = document.getElementById('italic');
-const underlineButton = document.getElementById('underline');
-const lessTypeSize = document.getElementById('lessTypeSize');
-const moreTypeSize = document.getElementById('moreTypeSize');
-const textArea = document.getElementById('textArea');
+    const boldButton = document.getElementById('bold');
+    const italicButton = document.getElementById('italic');
+    const underlineButton = document.getElementById('underline');
+    const textArea = document.getElementById('textArea');
+    const boldSpan = boldButton.querySelector('.material-symbols-outlined');
 
-
-document.addEventListener("DOMContentLoaded", () => {
+    boldSpan.classList.add('active');
     textArea.focus();
-});
 
-function toggleButton(button, command) {
-    document.execCommand(command, false, null);
-    button.classList.add("active");
-}
+    function toggleButton(button, command) {
+        const span = button.querySelector('.material-symbols-outlined');
+        const isActive = span.classList.contains('active');
+        
+        if (isActive) {
+            span.classList.remove('active');
+            document.execCommand(command, false, null);
+            console.log(`${command} desactivado`);
+        } else {
+            span.classList.add('active');
+            document.execCommand(command, false, null);
+            console.log(`${command} activado`);
+        }
+    }
 
-document.getElementById("bold").addEventListener("click", function() {
-    toggleButton(this, "bold");
-});
+    if (boldButton) {
+        boldButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleButton(this, "bold");
+        });
+    }
 
-document.getElementById("italic").addEventListener("click", function() {
-    toggleButton(this, "italic");
-});
+    if (italicButton) {
+        italicButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleButton(this, "italic");
+        });
+    }
 
-document.getElementById("underline").addEventListener("click", function() {
-    toggleButton(this, "underline");
-});
-
-
+    if (underlineButton) {
+        underlineButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleButton(this, "underline");
+        });
+    }
