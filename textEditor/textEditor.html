@@ -11,38 +11,48 @@
 <body>
     <div>
         <section class="toolbar">
-            <button id="bold"><span class="material-symbols-outlined">format_bold</span></button>
-            <button id="italic"><span class="material-symbols-outlined">format_italic</span></button>
-            <button id="underline"><span class="material-symbols-outlined">format_underlined</span></button>
-            <button class="color-type"></button>
-            <div class="color-menu">
-                <div style="display: flex; align-items: center;">
-                    <button class="color-option" data-color="red" style="background-color: red;"></button>
-                    <button class="color-option" data-color="blue" style="background-color: blue;"></button>
-                    <button class="color-option" data-color="green" style="background-color: green;"></button>
-                    <button class="color-option" data-color="black" style="background-color: black;"></button>
-                    <input type="color" id="colorPicker">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div contenteditable="true" spellcheck="false" id="title">Untitled</div>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <button id="bold"><span class="material-symbols-outlined">format_bold</span></button>
+                <button id="italic"><span class="material-symbols-outlined">format_italic</span></button>
+                <button id="underline"><span class="material-symbols-outlined">format_underlined</span></button>
+                <button class="color-type"></button>
+                <div class="color-menu">
+                    <div style="display: flex; align-items: center;">
+                        <button class="color-option" data-color="red" style="background-color: red;"></button>
+                        <button class="color-option" data-color="blue" style="background-color: blue;"></button>
+                        <button class="color-option" data-color="green" style="background-color: green;"></button>
+                        <button class="color-option" data-color="black" style="background-color: black;"></button>
+                        <input type="color" id="colorPicker">
+                    </div>
+                </div>            
+                <button><img src="/images/highlighter.png" alt="" id="highlighter"></button>
+                <button class="paragraph"><span class="material-symbols-outlined">format_align_justify</span></button>
+                <div class="paragraph-menu">
+                    <button class="paragraph-option" data-paragraph="left"><span class="material-symbols-outlined">format_align_left</span></button>
+                    <button class="paragraph-option" data-paragraph="center"><span class="material-symbols-outlined">format_align_center</span></button>
+                    <button class="paragraph-option" data-paragraph="right"><span class="material-symbols-outlined">format_align_right</span></button>
+                    <button class="paragraph-option" data-paragraph="justify"><span class="material-symbols-outlined">format_align_justify</span></button>
                 </div>
-            </div>            
-            <button><img src="/images/highlighter.png" alt="" id="highlighter"></button>
-            <button class="paragraph"><span class="material-symbols-outlined">format_align_justify</span></button>
-            <div class="paragraph-menu">
-                <button class="paragraph-option" data-paragraph="left"><span class="material-symbols-outlined">format_align_left</span></button>
-                <button class="paragraph-option" data-paragraph="center"><span class="material-symbols-outlined">format_align_center</span></button>
-                <button class="paragraph-option" data-paragraph="right"><span class="material-symbols-outlined">format_align_right</span></button>
-                <button class="paragraph-option" data-paragraph="justify"><span class="material-symbols-outlined">format_align_justify</span></button>
-            </div>
-            <div class="font-size-controls">
-                <button class="size-type" id="lessTypeSize">-</button>
-                <button class="size-type">11</button>
-                <button class="size-type" id="moreTypeSize">+</button>
-            </div>
-            <button id="fontButton">Helvetica</button>
-            <div id="fontMenu" class="dropdown"></div>
-            <div id="zoomMenu">
-                <button zoom="out"><img src="../images/zoom-out.png"class="zoom"></button>
-                <button zoom="in"><img src="../images/zoom-in.png" class="zoom"></button>
-            </div>
+                <div class="font-size-controls">
+                    <button class="size-type" id="lessTypeSize">-</button>
+                    <button class="size-type">11</button>
+                    <button class="size-type" id="moreTypeSize">+</button>
+                </div>
+                <button id="fontButton">Helvetica</button>
+                <div id="fontMenu" class="dropdown"></div>
+                <div id="zoomMenu">
+                    <button zoom="out"><img src="../images/zoom-out.png"class="zoom"></button>
+                    <button zoom="in"><img src="../images/zoom-in.png" class="zoom"></button>
+                </div>
+         </div>
+         <div id="download">
+            <button >
+                <img src="/images/download.png" alt="">
+            </button>
+         </div>
         </section>
         <section class="editor-container">
             <div class="editor">
@@ -56,6 +66,7 @@
     <script src="/textEditor/js/highlighter.js"></script>
     <script src="/textEditor/js/fonts.js"></script>
     <script src="/textEditor/js/zoom.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src="/textEditor/js/download.js"></script>
 </body>
 </html>

@@ -3,9 +3,19 @@
     const underlineButton = document.getElementById('underline');
     const textArea = document.getElementById('textArea');
     const boldSpan = boldButton.querySelector('.material-symbols-outlined');
+    const title = document.getElementById("title");
+    const maxLength = 23;
+
 
     boldSpan.classList.add('active');
     textArea.focus();
+
+
+    title.addEventListener("beforeinput", function (event) {
+        if (title.innerText.length >= maxLength && event.inputType !== "deleteContentBackward") {
+          event.preventDefault();
+        }
+      });
 
     function toggleButton(button, command) {
         const span = button.querySelector('.material-symbols-outlined');
@@ -14,11 +24,9 @@
         if (isActive) {
             span.classList.remove('active');
             document.execCommand(command, false, null);
-            console.log(`${command} desactivado`);
         } else {
             span.classList.add('active');
             document.execCommand(command, false, null);
-            console.log(`${command} activado`);
         }
     }
 

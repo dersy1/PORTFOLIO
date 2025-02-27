@@ -22,8 +22,7 @@ button{
     padding: 1em;
     background-color: white;
     border-bottom: 2px solid black;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 2;
 }
 
@@ -153,6 +152,10 @@ button{
     all:unset;
 }
 
+.paragraph-option:hover{
+ cursor: pointer;
+}
+
 .size-type{
     width: 1.7em;
     height: 1.7em;
@@ -226,4 +229,27 @@ button{
 
 .zoom{
     width: 1.5em;
+}
+
+#title{
+    margin-left: 3em;
+    width: 13em;
+    padding: 0.5em;
+}
+#download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+    margin-left: 9em;
+}   
+#download img{
+    border: 2px solid transparent;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#download img:hover{
+    border: 2px black solid;
+    border-radius: 4px;
 }
