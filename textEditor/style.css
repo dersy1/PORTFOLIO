@@ -9,6 +9,7 @@ button{
     all: unset;
     display: inline-block;
     cursor: pointer;
+    font-weight: bold;
     margin: 1em;
 }
 
@@ -230,6 +231,7 @@ button{
 }
 
 #title{
+    font-weight: bold;
     margin-left: 3em;
     width: 13em;
     padding: 0.5em;
